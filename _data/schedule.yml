@@ -6,9 +6,10 @@
             - time: "10:00"
               title: "Торжественное открытие"
             - time: "10:15"
-              title: "Доклад уточняется"
+              title: "Мобильность или мир глазами айтишника: куда развивать навыки, команду, проекты, чтобы (пре)успеть за технологиями?"
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        photo: "static/images/speakers/lbugaev.png"
+                        name: "Леонид Бугаев"
             - time: "11:10"
               title: "Страх и ненависть в релиз инжениринге"
               speaker:
@@ -47,9 +48,10 @@
             - time: "10:00"
               title: "Торжественное открытие"
             - time: "10:15"
-              title: "Доклад уточняется"
+              title: "Мобильность или мир глазами айтишника: куда развивать навыки, команду, проекты, чтобы (пре)успеть за технологиями?"
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        name: "Леонид Бугаев"
+                        photo: "static/images/speakers/lbugaev.png"
             - time: "11:10"
               title: "На что это похоже, Tensorflow?"
               speaker:
@@ -87,9 +89,10 @@
             - time: "10:00"
               title: "Торжественное открытие"
             - time: "10:15"
-              title: "Доклад уточняется"
+              title: "Мобильность или мир глазами айтишника: куда развивать навыки, команду, проекты, чтобы (пре)успеть за технологиями?"
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        name: "Леонид Бугаев"
+                        photo: "static/images/speakers/lbugaev.png"
             - time: "11:10"
               title: "Особенности многошаговых онлайн-продаж сложных продуктов"
               speaker:
@@ -125,9 +128,10 @@
             - time: "10:00"
               title: "Торжественное открытие"
             - time: "10:15"
-              title: "Доклад уточняется"
+              title: "Мобильность или мир глазами айтишника: куда развивать навыки, команду, проекты, чтобы (пре)успеть за технологиями?"
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        name: "Леонид Бугаев"
+                        photo: "static/images/speakers/lbugaev.png"
             - time: "11:10"
               title: "Построение продуктового бизнеса в технологический компании. 1000 граблей на пути к успеху"
               speaker:
