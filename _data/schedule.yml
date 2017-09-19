@@ -50,8 +50,8 @@
             - time: "10:15"
               title: "Мобильность или мир глазами айтишника: куда развивать навыки, команду, проекты, чтобы (пре)успеть за технологиями?"
               speaker:
-                        name: "Леонид Бугаев"
                         photo: "static/images/speakers/lbugaev.png"
+                        name: "Леонид Бугаев"
             - time: "11:10"
               title: "На что это похоже, Tensorflow?"
               speaker:
@@ -71,9 +71,10 @@
             - time: "14:30"
               title: "Обед"
             - time: "15:30"
-              title: "Доклад уточняется"
+              title: "Путь к простоте: как Haskell облегчает сопровождение кода"
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        photo: "static/images/speakers/dshevchenko.png"
+                        name: "Денис Шевченко"
             - time: "16:40"
               title: "Доклад уточняется"
               speaker:
@@ -91,8 +92,8 @@
             - time: "10:15"
               title: "Мобильность или мир глазами айтишника: куда развивать навыки, команду, проекты, чтобы (пре)успеть за технологиями?"
               speaker:
-                        name: "Леонид Бугаев"
                         photo: "static/images/speakers/lbugaev.png"
+                        name: "Леонид Бугаев"
             - time: "11:10"
               title: "Особенности многошаговых онлайн-продаж сложных продуктов"
               speaker:
@@ -100,9 +101,10 @@
                         bio: "Консультант, бизнес-тренер, Генеральный директор интернет-агентства «Гедокорп»"
                         photo: "static/images/speakers/adobrusin.png"
             - time: "12:20"
-              title: "Доклад уточняется"
+              title: "Машинное Обучение: мифы прессы и маркетологов. Кто виноват и что делать?"
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        name: "Алексей Натекин"
+                        photo: "static/images/speakers/anatekin.png"
             - time: "13:30"
               title: "Доклад уточняется"
               speaker:
@@ -130,8 +132,8 @@
             - time: "10:15"
               title: "Мобильность или мир глазами айтишника: куда развивать навыки, команду, проекты, чтобы (пре)успеть за технологиями?"
               speaker:
-                        name: "Леонид Бугаев"
                         photo: "static/images/speakers/lbugaev.png"
+                        name: "Леонид Бугаев"
             - time: "11:10"
               title: "Построение продуктового бизнеса в технологический компании. 1000 граблей на пути к успеху"
               speaker:
@@ -145,19 +147,24 @@
                         bio: "CEO e-legion, организатор конференции MBLT"
                         photo: "static/images/speakers/rbeloded.jpg"
             - time: "13:30"
-              title: "Доклад уточняется"
+              title: "Построение команды при разработке продукта"
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        name: "Александр Атцик"
+                        photo: "static/images/speakers/aatsik.png"
             - time: "14:30"
               title: "Обед"
             - time: "15:30"
-              title: "Доклад уточняется"
+              title: "Тема доклада уточняется"
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        name: "Шариф Кармо"
+                        bio: "COO Getshop.tv"
+                        photo: "static/images/speakers/shkarmo.png"
             - time: "16:40"
-              title: "Доклад уточняется"
+              title: "Чего хотят в венчуре" 
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        name: "Сергей Топоров"
+                        bio: "LETA-Capital"
+                        photo: "static/images/speakers/stoporov.png"
             - time: "18:00"
               title: "Закрытие конференции"
               description: "Торжественное закрытие конференции"
