@@ -160,9 +160,11 @@
                         bio: "COO Getshop.tv"
                         photo: "static/images/speakers/shkarmo.png"
             - time: "16:40"
-              title: "Доклад уточняется"
+              title: "Чего хотят в венчуре" 
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        name: "Сергей Топоров"
+                        bio: "LETA-Capital"
+                        photo: "static/images/speakers/stoporov.png"
             - time: "18:00"
               title: "Закрытие конференции"
               description: "Торжественное закрытие конференции"
