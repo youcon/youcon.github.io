@@ -28,7 +28,10 @@ p {
 p.large {
     font-size: 16px;
 }
-section form label { display: block; }
+section form label { 
+    display: block;
+    color: #FFFFFF;
+}
 a,
 a:hover,
 a:focus,
@@ -268,7 +271,7 @@ header .intro-text .intro-heading {
     font-weight: 700;
     font-size: 25px;
     margin-bottom: 25px;
-    color: #252423;
+    color: #FFFFFF;
 }
 header .intro-date {
     font-weight: 700;
@@ -298,7 +301,7 @@ header .intro-date {
         font-weight: 700;
         font-size: 35px;
         margin-bottom: 50px;
-        color: #252423;
+        color: #FFFFFF;
     }
     header .intro-date {
         font-weight: 700;
