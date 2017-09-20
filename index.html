@@ -127,25 +127,25 @@ layout: default
                     </div>
                     <div class="row">
                         <div class="col-lg-12 form-box">
-                            <form method="POST" action="http://reg.youcon.ru/reg/"> 
+                            <form method="POST" action="http://reg.youcon.ru/reg/">
                                 <div class="row form-group">
                                     <div class="col-md-6 reg-input">
                                         <label for="full_name">Фамилия, Имя</label>
-                                        <input type="text" name="full_name" maxlength="50"/> 
+                                        <input type="text" name="full_name" maxlength="50"/>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="email">E-mail</label>
-                                        <input type="text" name="email" maxlength="50"/> 
+                                        <input type="text" name="email" maxlength="50"/>
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-md-6 reg-input">
                                         <label for="company">Компания</label>
-                                        <input type="text" name="company" maxlength="50"/> 
+                                        <input type="text" name="company" maxlength="50"/>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="bio">Должность</label>
-                                        <input type="text" name="bio" maxlength="50"/> 
+                                        <input type="text" name="bio" maxlength="50"/>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -160,7 +160,7 @@ layout: default
                 </div>
             </div>
         </section>
-    
+
         <section id="schedule">
             <div class="container">
                 <div class="row">
@@ -197,7 +197,7 @@ layout: default
                                         {% else %}
                                             <div class="col-sm-3 schedule-time">
                                         {% endif %}
-                                    {% endif %} 
+                                    {% endif %}
                                         {{ event.time }}
                                     </div>
                                         {% if event.description == null and event.speaker == null %}
@@ -236,7 +236,7 @@ layout: default
                                         </div>
                                     </div>
                                 </div>
-                           {% endfor %} 
+                           {% endfor %}
 
                         </div>
                     {% endfor %}
@@ -251,21 +251,15 @@ layout: default
                         <h2 class="section-heading">Партнеры и спонсоры</h2>
                     </div>
                 </div>
+                <div class="row">
                 {% for sponsor in site.data.sponsors %}
-                    {% assign loopindex = forloop.index0 | modulo: 3 %}
-                    {% if loopindex == 0 %}
-                        <div class="row">
-                    {% endif %}
                     <div class="col-md-4 col-sm-6">
                         <a href="{{ sponsor.website }}">
                             <img src="{{ sponsor.logo }}" class="img-responsive img-centered" alt="{{ sponsor.name }}">
                         </a>
                     </div>
-                    {% if loopindex == 2 or forloop.last == true %}
-                        </div>
-                    {% endif %}
                 {% endfor %}
-                
+                </div>
                 {% assign infosize = site.data.info | size %}
                 {% if infosize > 0 %}
                     <div class="row info-partners">
@@ -380,14 +374,14 @@ layout: default
                     zoom: 16,
                     center: youcon
                 });
-               
+
                 var youconMarker = {lat: 51.518843, lng: 46.019923};
                 var marker = new google.maps.Marker({
                     position: youconMarker,
                     icon: "static/images/marker.png",
                     map: map
                 });
-                
+
             }
         </script>
         <script async defer

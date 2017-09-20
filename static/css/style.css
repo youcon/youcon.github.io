@@ -61,6 +61,8 @@ h6 {
 }
 .img-centered {
     margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .logo-img {
     width: 100%;
@@ -214,6 +216,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a:focus {
     color: #21c7da;
     background-color: transparent;
+}
+@media (max-width: 768px) {
+    .img-centered {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
 @media (min-width: 768px) {
     .navbar-custom {
