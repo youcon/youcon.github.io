@@ -18,7 +18,7 @@
     });
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
+    $('.navbar-collapse ul li a').click(function(){
             $('.navbar-toggle:visible').click();
     });
 
@@ -39,12 +39,18 @@
         $.ajax({
           type: 'POST',
           url: $("form").attr("action"),
-          data: $("form").serialize(), 
+          data: $("form").serialize(),
         }).done(function(){
-            $('.reg').hide()     
+            $('.reg').hide()
         });
-        $('.reg').hide()     
+        $('.reg').hide()
         return false
+    });
+
+    $(document).ready(function(){
+	     $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+		       $(this).toggleClass('open');
+	     });
     });
 
 })(jQuery); // End of use strict
