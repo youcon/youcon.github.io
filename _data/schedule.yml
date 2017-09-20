@@ -14,7 +14,7 @@
               title: "Страх и ненависть в релиз инжениринге"
               speaker:
                         name: "Михаил Чинков"
-                        bio: "Инженером эксплуатации в компании FunCorp"
+                        bio: "Инженер эксплуатации в компании FunCorp"
                         photo: "static/images/speakers/mchinkov.png"
             - time: "12:20"
               title: "Security без ГМО"
