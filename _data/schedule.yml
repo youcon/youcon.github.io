@@ -23,9 +23,11 @@
                         bio: ""
                         photo: "static/images/speakers/ikuchmin.png"
             - time: "13:30"
-              title: "Доклад уточняется"
+              title: "Особенности разработки API"
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        name: "Всеволд Шмыров"
+                        bio: "Руководитель группы разработки сервисов API Яндекс.Карты"
+                        photo: "static/images/speakers/vshmirov.jpg"
             - time: "14:30"
               title: "Обед"
             - time: "15:30"
