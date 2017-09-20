@@ -207,6 +207,8 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     color: white;
     font-size: 12px;
+    border: none;
+    border-radius: 0px;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
