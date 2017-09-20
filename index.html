@@ -292,24 +292,24 @@ layout: default
                         <h2 class="section-heading">Организаторы</h2>
                     </div>
                 </div>
+                <div class="row">
                 {% for org in site.data.orgs %}
                     {% assign loopindex = forloop.index0 | modulo: 4 %}
-                    {% if loopindex == 0 %}
-                        <div class="row org-line">
-                    {% endif %}
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                      <div class="org-block">
                         <img src="{{ org.photo }}" class="img-circle org-photo"/>
-                        <div class="org-name">
-                            {{ org.name }}
+                        <div class="org-text">
+                          <div class="org-name">
+                              {{ org.name }}
+                          </div>
+                          <div class="org-bio">
+                              {{ org.bio }}
+                          </div>
                         </div>
-                        <div class="org-bio">
-                            {{ org.bio }}
-                        </div>
+                      </div>
                     </div>
-                    {% if loopindex == 3 or forloop.last == true %}
-                        </div>
-                    {% endif %}
                 {% endfor %}
+                </div>
             </div>
         </section>
 
