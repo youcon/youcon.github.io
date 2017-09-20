@@ -11,7 +11,7 @@
                         photo: "static/images/speakers/lbugaev.png"
                         name: "Леонид Бугаев"
             - time: "11:10"
-              title: "Страх и ненависть в релиз инжениринге"
+              title: "Страх и ненависть в релиз инжиниринге"
               speaker:
                         name: "Михаил Чинков"
                         bio: "Инженер эксплуатации в компании FunCorp"
