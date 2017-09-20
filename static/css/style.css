@@ -30,7 +30,7 @@ p.large {
 }
 section form label { 
     display: block;
-    color: #FFFFFF;
+    color: #c4c4c4;
 }
 a,
 a:hover,
@@ -381,14 +381,17 @@ section#schedule .speak-title {
 section#schedule .speak-description {
     margin-bottom: 10px;
     word-wrap: break-word;
+    color: #c4c4c4;
 }
 section#schedule .speaker-name {
     font-weight: 700;
-    color: #696969;
+/*    color: #696969;*/
+    color: #FFFFFF;
     font-size: 18px;
 }
 section#schedule .speaker-bio {
     word-wrap: break-word;
+    color: #c4c4c4;
 }
 section#schedule .speak-important {
     color: #cc1634;
