@@ -67,9 +67,11 @@
                         bio: "VP of Engineering, Ecwid"
                         photo: "static/images/speakers/vvasilkov.png"
             - time: "13:30"
-              title: "Доклад уточняется"
+              title: "BDD. За гранью возможного"
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        name: "Иосиф Иткин"
+                        bio: "Генеральный Директор, Exactpro"
+                        photo: "static/images/speakers/iitkin.jpg"
             - time: "14:30"
               title: "Обед"
             - time: "15:30"
