@@ -28,7 +28,10 @@ p {
 p.large {
     font-size: 16px;
 }
-section form label { display: block; }
+section form label { 
+    display: block;
+    color: #c4c4c4;
+}
 a,
 a:hover,
 a:focus,
@@ -268,7 +271,7 @@ header .intro-text .intro-heading {
     font-weight: 700;
     font-size: 25px;
     margin-bottom: 25px;
-    color: #252423;
+    color: #FFFFFF;
 }
 header .intro-date {
     font-weight: 700;
@@ -298,7 +301,7 @@ header .intro-date {
         font-weight: 700;
         font-size: 35px;
         margin-bottom: 50px;
-        color: #252423;
+        color: #FFFFFF;
     }
     header .intro-date {
         font-weight: 700;
@@ -378,14 +381,17 @@ section#schedule .speak-title {
 section#schedule .speak-description {
     margin-bottom: 10px;
     word-wrap: break-word;
+    color: #c4c4c4;
 }
 section#schedule .speaker-name {
     font-weight: 700;
-    color: #696969;
+/*    color: #696969;*/
+    color: #FFFFFF;
     font-size: 18px;
 }
 section#schedule .speaker-bio {
     word-wrap: break-word;
+    color: #c4c4c4;
 }
 section#schedule .speak-important {
     color: #cc1634;
