@@ -36,9 +36,11 @@
                         photo: "static/images/speakers/dshevchenko.png"
                         name: "Денис Шевченко"
             - time: "16:40"
-              title: "Доклад уточняется"
+              title: "Перестаём бояться и затаскиваем монады в свой Scala проект"
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        photo: "static/images/speakers/aotc.jpg"
+                        name: "Алексей Отц"
+                        bio: "Старший Scala разработчик Tinkoff.ru"
             - time: "18:00"
               title: "Закрытие конференции"
               description: "Торжественное закрытие конференции"
