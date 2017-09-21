@@ -277,6 +277,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     color: white;
     font-size: 12px;
+    margin-right: 0px;
     border: none;
     border-radius: 0px;
 }
