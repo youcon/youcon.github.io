@@ -18,3 +18,7 @@
   website: http://www.profsoft.pro/
   logo: static/images/sponsors/prof.png
   hover: static/images/sponsors/prof_2.png
+- name: BigDatix
+  website: http://bigdatix.com/
+  logo: static/images/sponsors/bigd.png
+  hover: static/images/sponsors/bigd.png
