@@ -365,11 +365,11 @@ layout: default
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="soc-links">
-                            <a href="https://vk.com/youconsaratov2017"><i class="fa fa-vk"></i></a>
-                            <a href="https://twitter.com/youconsaratov"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/profile.php?id=100015450615218&fref=ts"><i class="fa fa-facebook"></i></a>
-                            <a href="https://plus.google.com/+YouconRu?hl=ru"><i class="fa fa-google-plus"></i></a>
-                            <a href="https://www.instagram.com/youconsaratov/"><i class="fa fa-instagram"></i></a>
+                            <a target="_blank" href="https://vk.com/youconsaratov2017"><i class="fa fa-vk"></i></a>
+                            <a target="_blank" href="https://twitter.com/youconsaratov"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank" href="https://www.facebook.com/profile.php?id=100015450615218&fref=ts"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" href="https://plus.google.com/+YouconRu?hl=ru"><i class="fa fa-google-plus"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/youconsaratov/"><i class="fa fa-instagram"></i></a>
                         </div>
                         <p class="copyright">Юкон &copy; 2016. ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
                     </div>
@@ -414,6 +414,13 @@ layout: default
                     position: youconMarker,
                     icon: "static/images/marker.png",
                     map: map
+                });
+                var youconAdddress = "<h5>САРАТОВСКАЯ ГОСУДАРСТВЕННАЯ ЮРИДИЧЕСКАЯ АКАДЕМИЯ</h5><p>ул. Чернышевского, 104</p><p class=\"address\"><a href=\"tel:89271209970\">+7 927 120 99 70</a></div><div class=\"address\"><a href=\"mailto:info@youcon.ru\">info@youcon.ru</a></div><p class=\"soc-links map\"><a target=\"_blank\" href=\"https://vk.com/youconsaratov2017\"><i class=\"fa fa-vk\"></i></a><a target=\"_blank\" href=\"https://twitter.com/youconsaratov\"><i class=\"fa fa-twitter\"></i></a><a target=\"_blank\" href=\"https://www.facebook.com/profile.php?id=100015450615218&fref=ts\"><i class=\"fa fa-facebook\"></i></a><a target=\"_blank\" href=\"https://plus.google.com/+YouconRu?hl=ru\"><i class=\"fa fa-google-plus\"></i></a><a target=\"_blank\" href=\"https://www.instagram.com/youconsaratov/\"><i class=\"fa fa-instagram\"></i></a></p>";
+                var infowindow = new google.maps.InfoWindow({
+                    content: youconAdddress
+                });
+                marker.addListener('click', function() {
+                    infowindow.open(map, marker);
                 });
 
             }
