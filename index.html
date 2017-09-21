@@ -71,7 +71,6 @@ layout: default
                             <span></span>
                             <span></span>
                         </div>
-                    <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand page-scroll" href="http://2015.youcon.ru">2015</a>
                     <a class="navbar-brand page-scroll" href="http://2016.youcon.ru">2016</a>
@@ -121,12 +120,12 @@ layout: default
                         <h2 class="section-heading">ЮКОН-2017</h2>
                         <h3 class="section-subheading text-muted">
                         <p>Осенью 2017 года в Саратове состоится ИТ-конференция!
-                            На одной площадке соберутся самые интересные докладчики, 
-                            которые расскажут тебе о тенденциях в области технологий, 
-                            разработки, продвижения и внедрения программного обеспечения, 
-                            а также, о том, как построить собственный бизнес в ИТ или создать 
-                            популярное Интернет-сообщество! 
-                            Разработчик, интернет-маркетолог и предприниматель – каждый найдет 
+                            На одной площадке соберутся самые интересные докладчики,
+                            которые расскажут тебе о тенденциях в области технологий,
+                            разработки, продвижения и внедрения программного обеспечения,
+                            а также, о том, как построить собственный бизнес в ИТ или создать
+                            популярное Интернет-сообщество!
+                            Разработчик, интернет-маркетолог и предприниматель – каждый найдет
                             для себя интересную секцию!
                             <br><br><span>УЧАСТИЕ В КОНФЕРЕНЦИИ - БЕСПЛАТНО! </span></p>
                         </h3>
@@ -273,7 +272,7 @@ layout: default
                 <div class="row">
                 {% for sponsor in site.data.sponsors %}
                     <div class="col-md-4 col-sm-6">
-                        <a href="{{ sponsor.website }}">
+                        <a href="{{ sponsor.website }}" class="sponsor-block">
                             <img src="{{ sponsor.logo }}" class="img-responsive img-centered" alt="{{ sponsor.name }}">
                         </a>
                     </div>
@@ -291,7 +290,7 @@ layout: default
                         {% if loopindex == 0 %}
                             <div class="row">
                         {% endif %}
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
                             <a href="{{ info.website }}">
                                 <img src="{{ info.logo }}" class="img-responsive img-centered" alt="{{ info.name }}">
                             </a>

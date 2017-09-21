@@ -59,9 +59,16 @@ h6 {
     font-weight: 700;
 }
 .img-centered {
-    margin: 0 auto;
+    margin: auto;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.sponsor-block {
+  width: 260px;
+  height: 160px;
+  display: flex;
+  margin: 0 auto;
 }
 
 .org-block {
@@ -69,6 +76,7 @@ h6 {
     padding-bottom: 20px;
     display: block;
     width: 220px;
+    margin: 0 auto;
 }
 .org-block img {
     display: block;
@@ -465,16 +473,16 @@ section#schedule a {
     text-decoration: none;
 }
 
-.nav-pills>li.active>a, 
-.nav-pills>li.active>a:focus, 
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
     border-radius: 0px;
-    background-color: #21c7da; 
+    background-color: #21c7da;
 }
-.nav-pills>li>a:focus, 
+.nav-pills>li>a:focus,
 .nav>li>a:hover {
     border-radius: 0px;
-    background-color: #21c7da; 
+    background-color: #21c7da;
 }
 .nav-pills>li>a {
     padding: 2px 15px;
@@ -672,7 +680,7 @@ body {
 }
 .soc-links a {
     color: #202223;
-    font-size: 25px; 
+    font-size: 25px;
     cursor: pointer;
     opacity: .5;
 }
