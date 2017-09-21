@@ -72,7 +72,7 @@
               title: "Тема уточняется"
               speaker:
                         name: "Павел Комков"
-                        bio: "SRE Engineer, Google"
+                        bio: "SRE"
                         photo: "static/images/speakers/pkomkoff.png"
             - time: "14:30"
               title: "Обед"
