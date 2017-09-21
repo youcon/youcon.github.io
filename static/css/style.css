@@ -449,15 +449,29 @@ section#schedule .schedule-btn {
     background-color: #3e4040;
     margin-right: 5px;
     font-weight: 700;
+    border-radius: 0px;
+    width: 200px;
 }
 section#schedule a {
     color: #696969;
     text-decoration: none;
 }
 
-section#schedule .schedule-btn-active {
-    background-color: #21c7da;
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:focus, 
+.nav-pills>li.active>a:hover {
+    border-radius: 0px;
+    background-color: #21c7da; 
 }
+.nav-pills>li>a:focus, 
+.nav>li>a:hover {
+    border-radius: 0px;
+    background-color: #21c7da; 
+}
+.nav-pills>li>a {
+    padding: 2px 15px;
+}
+
 section#schedule .schedule-time {
     font-size: 50px;
     font-weight: 700;

@@ -28,12 +28,12 @@
             top: 100
         }
     })
-    $('.schedule-btn').click(function (e) {
-        e.preventDefault();
-        $('.schedule-btn').removeClass('schedule-btn-active');
-        $(this).addClass('schedule-btn-active');
-    });
-
+//    $('.schedule-btn').click(function (e) {
+//        e.preventDefault();
+//        $('.schedule-btn').removeClass('schedule-btn-active');
+//        $(this).addClass('schedule-btn-active');
+//    });
+//
     // handle form
     $("form").submit(function(event) {
         $.ajax({
