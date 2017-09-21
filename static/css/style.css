@@ -656,4 +656,46 @@ body {
 #map {
     height: 600px;
     width: 100%;
+    margin-bottom: 50px;
+}
+.soc-links {
+    line-height: 25px;
+    float: left;
+}
+.soc-links a {
+    color: #202223;
+    font-size: 25px; 
+    cursor: pointer;
+    opacity: .5;
+}
+.soc-links a:hover {
+    color: #fff;
+}
+.soc-links a + a {
+    padding-left: 10px;
+}
+.copyright {
+    padding-left: 10px;
+    float: right;
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+}
+@media (max-width: 550px) {
+    .soc-links {
+        float: none;
+        text-align: center;
+    }
+    .soc-links a {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .copyright {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+        padding-left: 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
