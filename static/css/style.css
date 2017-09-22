@@ -687,6 +687,9 @@ body {
 .soc-links a:hover {
     color: #fff;
 }
+.soc-links.map a:hover{
+    color: #21c7da;
+}
 .soc-links a + a {
     padding-left: 10px;
 }
