@@ -28,12 +28,21 @@
             top: 100
         }
     })
-//    $('.schedule-btn').click(function (e) {
-//        e.preventDefault();
-//        $('.schedule-btn').removeClass('schedule-btn-active');
-//        $(this).addClass('schedule-btn-active');
-//    });
-//
+
+    $('a#desc-link').on('click', function(){
+        var id = $(this).data("toggle"),
+            o = $(id),
+            po = $(this).parent()
+
+        if (o) {
+            o.removeClass('hide_desc')
+            o.addClass('show_desc')
+            po.removeClass('show_desc')
+            po.addClass('hide_desc')
+        }
+        return false
+    });
+
     // handle form
     $("form").submit(function(event) {
         $.ajax({

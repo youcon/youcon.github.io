@@ -381,12 +381,14 @@ header .intro-text .intro-heading {
     font-weight: 700;
     font-size: 25px;
     margin-bottom: 25px;
-    color: #FFFFFF;
+    color: #CECECE;
 }
 header .intro-date {
     font-weight: 700;
-    font-size: 50px;
+    font-size: 30px;
     color: white;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 @media (min-width: 768px) {
     header .intro-text {
@@ -409,14 +411,16 @@ header .intro-date {
         font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         font-weight: 700;
-        font-size: 35px;
+        font-size: 25px;
         margin-bottom: 50px;
-        color: #FFFFFF;
+        color: #CECECE;
     }
     header .intro-date {
         font-weight: 700;
-        font-size: 40px;
+        font-size: 30px;
         color: white;
+        margin-top: 100px;
+        margin-bottom: 20px;
     }
 }
 section {
@@ -466,8 +470,14 @@ section#schedule a {
     text-decoration: none;
 }
 
-.nav-pills>li.active>a,
-.nav-pills>li.active>a:focus,
+.show_desc {
+    display: block;
+}
+.hide_desc {
+    display: none;
+}
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:focus, 
 .nav-pills>li.active>a:hover {
     border-radius: 0px;
     background-color: #21c7da;
