@@ -199,6 +199,7 @@ layout: default
                 </div>
                 <div class="tab-content ">
                     {% for track in site.data.schedule %}
+                        {% assign trackId = forloop.index0 %}
                         {% if forloop.first == true %}
                             <div class="tab-pane active" id="{{ forloop.index }}">
                         {% else %}
@@ -206,6 +207,7 @@ layout: default
                         {% endif %}
 
                            {% for event in track.schedule %}
+                                {% assign eventId = forloop.index0 %}
                                 <div class="row schedule-box">
                                     {% if forloop.first == true %}
                                         <div class="col-sm-3 schedule-time speak-important">
@@ -234,14 +236,28 @@ layout: default
                                                         {{ event.title }}
                                                     </div>
                                                     <div class="col-sm-12 speak-description">
-                                                        {{ event.description }}
+                                                        {% assign speakWords = event.description | split: ' ' %}
+                                                        {% if speakWords.size > 10 %}
+                                                           <div id="speak-{{ trackId }}-{{ eventId }}-short"  class="show_desc"> {{ event.description | truncatewords:10 }} <a href="#" id="desc-link"  data-toggle="#speak-{{ trackId }}-{{ eventId }}-full">Далее</a></div>
+                                                           <div id="speak-{{ trackId }}-{{ eventId }}-full" class="hide_desc"><p> {{ event.description }}</p> <a href="#" id="desc-link" data-toggle="#speak-{{ trackId }}-{{ eventId }}-short">Скрыть</a></div>
+                                                        
+                                                        {% else %}
+                                                           <div> {{ event.description }} </div>
+                                                        {% endif %}
                                                     </div>
                                                     {% if event.speaker != null %}
                                                         <div class="col-sm-12 speaker-name">
                                                             {{ event.speaker.name }}
                                                         </div>
                                                         <div class="col-sm-12 speaker-bio">
-                                                            {{ event.speaker.bio }}
+                                                        {% assign speakerWords = event.speaker.bio | split: ' ' %}
+                                                        {% if speakerWords.size > 10 %}
+                                                           <div id="speaker-{{ trackId }}-{{ eventId }}-short"  class="show_desc"> {{ event.speaker.bio | truncatewords:10 }} <a href="#" id="desc-link"  data-toggle="#speaker-{{ trackId }}-{{ eventId }}-full">Далее</a></div>
+                                                           <div id="speaker-{{ trackId }}-{{ eventId }}-full" class="hide_desc"><p> {{ event.speaker.bio }}</p> <a href="#" id="desc-link" data-toggle="#speaker-{{ trackId }}-{{ eventId }}-short">Скрыть</a></div>
+                                                        
+                                                        {% else %}
+                                                           <div> {{ event.speaker.bio }} </div>
+                                                        {% endif %}
                                                         </div>
                                                     {% endif %}
                                                 </div>
