@@ -6,18 +6,30 @@
   website: https://exactpro.com/
   logo: static/images/sponsors/exac.png
   hover: static/images/sponsors/exac_2.png
+- name: Epam
+  website: https://www.epam.com
+  logo: static/images/sponsors/epam.png
+  hover: static/images/sponsors/epam.png
 - name: Haulmont
   website: https://www.haulmont.ru/
   logo: static/images/sponsors/haul.png
   hover: static/images/sponsors/haul_2.png
-- name: Тамтэк
-  website: http://thumbtack.ru/
-  logo: static/images/sponsors/tam.png
-  hover: static/images/sponsors/tam_2.png
 - name: Profsoft 
   website: http://www.profsoft.pro/
   logo: static/images/sponsors/prof.png
   hover: static/images/sponsors/prof_2.png
+- name: Банк Открытие
+  website: https://www.open.ru
+  logo: static/images/sponsors/otkr.png
+  hover: static/images/sponsors/otkr.png
+- name: Компания Мария
+  website: https://marya.ru
+  logo: static/images/sponsors/marya.png
+  hover: static/images/sponsors/mraya.png
+- name: Тамтэк
+  website: http://thumbtack.ru/
+  logo: static/images/sponsors/tam.png
+  hover: static/images/sponsors/tam_2.png
 - name: BigDatix
   website: http://bigdatix.com/
   logo: static/images/sponsors/bigd.png
