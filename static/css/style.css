@@ -466,7 +466,7 @@ section#schedule .schedule-btn {
     width: 200px;
 }
 section#schedule a {
-    color: #696969;
+    color: ##21c7da;
     text-decoration: none;
 }
 
@@ -476,8 +476,8 @@ section#schedule a {
 .hide_desc {
     display: none;
 }
-.nav-pills>li.active>a, 
-.nav-pills>li.active>a:focus, 
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
     border-radius: 0px;
     background-color: #21c7da;
