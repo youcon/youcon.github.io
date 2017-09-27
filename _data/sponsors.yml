@@ -26,6 +26,10 @@
   website: https://marya.ru
   logo: static/images/sponsors/marya.png
   hover: static/images/sponsors/mraya.png
+- name: Ростелеком
+  website: http://rt.ru/
+  logo: static/images/sponsors/rostel.png
+  hover: static/images/sponsors/rostel.png
 - name: Тамтэк
   website: http://thumbtack.ru/
   logo: static/images/sponsors/tam.png
