@@ -303,15 +303,20 @@ layout: default
                         <h2 class="section-heading">Партнеры и спонсоры</h2>
                     </div>
                 </div>
-                <div class="row">
                 {% for sponsor in site.data.sponsors %}
+                    {% assign loopindex = forloop.index0 | modulo: 3 %}
+                    {% if loopindex == 0 %}
+                            <div class="row">
+                    {% endif %}
                     <div class="col-md-4 col-sm-6">
                         <a href="{{ sponsor.website }}">
                             <img src="{{ sponsor.logo }}" class="img-responsive img-centered" alt="{{ sponsor.name }}">
                         </a>
                     </div>
+                    {% if loopindex == 2 or forloop.last == true %}
+                        </div>
+                    {% endif %}
                 {% endfor %}
-                </div>
                 {% assign infosize = site.data.info | size %}
                 {% if infosize > 0 %}
                     <div class="row info-partners">
