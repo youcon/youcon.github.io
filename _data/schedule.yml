@@ -86,10 +86,11 @@
                         bio: ""
                         photo: "static/images/speakers/ikuchmin.png"
             - time: "13:30"
-              title: "Тема уточняется"
+              title: "SRE: мифы и реальность"
+              description: "Что такое SRE, зачем это нужно, как правильно их готовить, и какую (огромную) пользу можно получить в результате."
               speaker:
                         name: "Павел Комков"
-                        bio: "SRE"
+                        bio: "SRE со стажем и опытом"
                         photo: "static/images/speakers/pkomkoff.png"
             - time: "14:30"
               title: "Обед"
