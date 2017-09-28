@@ -1,1 +1,19 @@
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body id="page-top" class="index">
+    {% include header.html %}
+
+    {% include section_about.html %}
+    {% include section_registration.html %}
+    {% include section_schedule.html %}
+    <section id="splitter"/>
+    {% include section_partners.html %}
+    {% include section_team.html %}
+    {% include section_contacts.html %}
+
+    {% include footer.html %}
+  </body>
+</html>

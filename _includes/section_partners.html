@@ -1,0 +1,45 @@
+<section id="partners">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">Партнеры и спонсоры</h2>
+            </div>
+        </div>
+        {% for sponsor in site.data.sponsors %}
+            {% assign loopindex = forloop.index0 | modulo: 3 %}
+            {% if loopindex == 0 %}
+                    <div class="row">
+            {% endif %}
+            <div class="col-md-4 col-sm-6">
+                <a href="{{ sponsor.website }}">
+                    <img src="{{ sponsor.logo }}" class="img-responsive img-centered" alt="{{ sponsor.name }}">
+                </a>
+            </div>
+            {% if loopindex == 2 or forloop.last == true %}
+                </div>
+            {% endif %}
+        {% endfor %}
+        {% assign infosize = site.data.info | size %}
+        {% if infosize > 0 %}
+            <div class="row info-partners">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Инфо партнеры</h2>
+                </div>
+            </div>
+            {% for info in site.data.info %}
+                {% assign loopindex = forloop.index0 | modulo: 3 %}
+                {% if loopindex == 0 %}
+                    <div class="row">
+                {% endif %}
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="{{ info.website }}">
+                        <img src="{{ info.logo }}" class="img-responsive img-centered" alt="{{ info.name }}">
+                    </a>
+                </div>
+                {% if loopindex == 2 or forloop.last == true %}
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    </div>
+</section>
