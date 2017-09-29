@@ -1,0 +1,101 @@
+<section id="schedule">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">Расписание</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-3">
+                <ul class="nav nav-pills">
+                    {% for track in site.data.schedule %}
+                        {% if forloop.first == true %}
+                            <li class="schedule-btn active">
+                        {% else %}
+                            <li class="schedule-btn">
+                        {% endif %}
+                            <a  href="#{{ forloop.index }}" data-toggle="tab">{{ track.name }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content ">
+            {% for track in site.data.schedule %}
+                {% assign trackId = forloop.index0 %}
+                {% if forloop.first == true %}
+                    <div class="tab-pane active" id="{{ forloop.index }}">
+                {% else %}
+                    <div class="tab-pane" id="{{ forloop.index }}">
+                {% endif %}
+
+                   {% for event in track.schedule %}
+                        {% assign eventId = forloop.index0 %}
+                        <div class="row schedule-box">
+                            {% if forloop.first == true %}
+                                <div class="col-sm-3 schedule-time speak-important">
+                            {% else %}
+                                {% if event.description == null and event.speaker == null %}
+                                    <div class="col-sm-3 schedule-time speak-none-time">
+                                {% else %}
+                                    <div class="col-sm-3 schedule-time">
+                                {% endif %}
+                            {% endif %}
+                                {{ event.time }}
+                            </div>
+                                {% if event.description == null and event.speaker == null %}
+                                    <div class="col-sm-9 speak-box speak-none-box">
+                                {% else %}
+                                    <div class="col-sm-9 speak-box">
+                                {% endif %}
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <div class="row">
+                                            {% if forloop.first == true %}
+                                                <div class="col-sm-12 speak-title speak-important">
+                                            {% else %}
+                                                <div class="col-sm-12 speak-title">
+                                            {% endif %}
+                                                {{ event.title }}
+                                            </div>
+                                            <div class="col-sm-12 speak-description">
+                                                {% assign speakWords = event.description | split: ' ' %}
+                                                {% if speakWords.size > 10 %}
+                                                   <div id="speak-{{ trackId }}-{{ eventId }}-short"  class="show_desc"> {{ event.description | truncatewords:10 }} <a href="#" id="desc-link"  data-toggle="#speak-{{ trackId }}-{{ eventId }}-full">Далее</a></div>
+                                                   <div id="speak-{{ trackId }}-{{ eventId }}-full" class="hide_desc"><p> {{ event.description }}</p> <a href="#" id="desc-link" data-toggle="#speak-{{ trackId }}-{{ eventId }}-short">Скрыть</a></div>
+
+                                                {% else %}
+                                                   <div> {{ event.description }} </div>
+                                                {% endif %}
+                                            </div>
+                                            {% if event.speaker != null %}
+                                                <div class="col-sm-12 speaker-name">
+                                                    {{ event.speaker.name }}
+                                                </div>
+                                                <div class="col-sm-12 speaker-bio">
+                                                {% assign speakerWords = event.speaker.bio | split: ' ' %}
+                                                {% if speakerWords.size > 10 %}
+                                                   <div id="speaker-{{ trackId }}-{{ eventId }}-short"  class="show_desc"> {{ event.speaker.bio | truncatewords:10 }} <a href="#" id="desc-link"  data-toggle="#speaker-{{ trackId }}-{{ eventId }}-full">Далее</a></div>
+                                                   <div id="speaker-{{ trackId }}-{{ eventId }}-full" class="hide_desc"><p> {{ event.speaker.bio }}</p> <a href="#" id="desc-link" data-toggle="#speaker-{{ trackId }}-{{ eventId }}-short">Скрыть</a></div>
+
+                                                {% else %}
+                                                   <div> {{ event.speaker.bio }} </div>
+                                                {% endif %}
+                                                </div>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                    {% if event.speaker.photo != null %}
+                                        <div class="col-sm-2">
+                                            <img src="{{ event.speaker.photo }}" class="img-circle speaker-photo"/>
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                   {% endfor %}
+
+                </div>
+            {% endfor %}
+        </div>
+</section>
