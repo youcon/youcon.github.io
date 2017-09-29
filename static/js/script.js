@@ -46,14 +46,16 @@
     // handle form
     $("form").submit(function(event) {
         $.ajax({
-          type: 'POST',
-          url: $("form").attr("action"),
-          data: $("form").serialize(),
+            type: 'POST',
+            url: $("form").attr("action"),
+            data: $("form").serialize(),
         }).done(function(){
-            $('.reg').hide()
+            $('#reg_form').hide()
+                $('#success').show()
         });
-        $('.reg').hide()
-        return false
+        $('#reg_form').hide()
+            $('#success').show()
+            return false
     });
 
     $(document).ready(function(){

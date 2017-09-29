@@ -620,6 +620,18 @@ input[type=text] {
     width: 80%;
     float: left;
 }
+
+#success {
+    display: none
+}
+section#registration .success{
+    text-align: center;
+    color: #cc1634;
+}
+section#registration .share{
+    text-align: center;
+    color: #c4c4c4;
+}
 section#registration{
     background-color: #202223;
     background-position: center;
