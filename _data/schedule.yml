@@ -132,9 +132,11 @@
                         photo: "static/images/speakers/vshmirov.jpg"
 
             - time: "16:40"
-              title: "Доклад уточняется"
+              title: "Процесс релиза iOS-приложений в Badoo"
               speaker:
-                        photo: "static/images/speakers/default-speaker.png"
+                        name: "Михаил Булгаков"
+                        bio: "Sr Release Engineer, Badoo"
+                        photo: "static/images/speakers/mbulgakov.jpg"
             - time: "18:00"
               title: "Закрытие конференции"
               description: "Торжественное закрытие конференции"
