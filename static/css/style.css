@@ -552,6 +552,9 @@ section#partners {
 section#partners .section-heading {
     color: white;
 }
+section#partners .info-partners {
+    margin-top: 50px;
+}
 
 section#team {
     background-color: #202223;
