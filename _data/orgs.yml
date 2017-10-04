@@ -19,3 +19,6 @@
 - name: "Владимир Королев"
   photo: "static/images/orgs/vko.jpg"
   bio: "маркетолог"
+- name: "Алексей Пыжов"
+  photo: "static/images/orgs/apy.png"
+  bio: "медиаменеджер"
