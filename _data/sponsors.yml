@@ -22,10 +22,6 @@
   website: https://www.open.ru
   logo: static/images/sponsors/otkr.png
   hover: static/images/sponsors/otkr.png
-- name: Компания Мария
-  website: https://marya.ru
-  logo: static/images/sponsors/marya.png
-  hover: static/images/sponsors/mraya.png
 - name: Ростелеком
   website: http://rt.ru/
   logo: static/images/sponsors/rostel.png
