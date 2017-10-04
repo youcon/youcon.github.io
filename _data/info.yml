@@ -2,10 +2,26 @@
   website: http://saratov24.tv/
   logo: static/images/info/LOGO_C24.png
   hover: static/images/info/LOGO_C24.png
+- name: GTRK
+  website: http://gtrk-saratov.ru/
+  logo: static/images/info/gtrk_sar.png
+  hover: static/images/info/gtrk_sar.png
+- name: "Типичный Саратов"
+  website: http://vk.com/64saratov
+  logo: static/images/info/ts.png
+  hover: static/images/info/ts.png
 - name: SarBc
   website: http://sarbc.ru/
   logo: static/images/info/LogoSarBC.png
   hover: static/images/info/LogoSarBC.png
+- name: Vzsar
+  website: http://www.vzsar.ru/
+  logo: static/images/info/vzsar.png
+  hover: static/images/info/vzsar.png
+- name: "Версия"
+  website: http://nversia.ru
+  logo: static/images/info/version.png
+  hover: static/images/info/version.png
 - name: MoyGid
   website: http://mygd.ru/
   logo: static/images/info/Moy_gid.png
@@ -18,11 +34,15 @@
   website: https://vk.com/silver_saratov
   logo: static/images/info/sd_SARATOV_2016.png
   hover: static/images/info/sd_SARATOV_2016.png
-- name: Vzsar
-  website: http://www.vzsar.ru/
-  logo: static/images/info/vzsar.png
-  hover: static/images/info/vzsar.png
-- name: GTRK
-  website: http://gtrk-saratov.ru/
-  logo: static/images/info/gtrk_sar.png
-  hover: static/images/info/gtrk_sar.png
+- name: "Fee news volga"
+  website: http://fn-volga.ru
+  logo: static/images/info/freenews.png
+  hover: static/images/info/freenews.png
+- name: "Сар информ"
+  website: http://sarinform.ru
+  logo: static/images/info/sarinfo.png
+  hover: static/images/info/sarinfo.png
+- name: "Sar week"
+  website: http://sarweek.ru
+  logo: static/images/info/SarWeek.png
+  hover: static/images/info/SarWeek.png
