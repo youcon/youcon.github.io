@@ -23,7 +23,7 @@
   logo: static/images/sponsors/otkr.png
   hover: static/images/sponsors/otkr.png
 - name: Ростелеком
-  website: http://rt.ru/
+  website: https://saratov.rt.ru/b2b/
   logo: static/images/sponsors/rostel.png
   hover: static/images/sponsors/rostel.png
 - name: Тамтэк
