@@ -1,4 +1,5 @@
 language: ruby
 rvm:
 - 2.1
+gemfile: .build/Gemfile
 script: "bundle exec jekyll build"
