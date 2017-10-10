@@ -10,8 +10,8 @@
             {% assign loopindex = forloop.index0 | modulo: 4 %}
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="org-block">
-                <a href="{{ org.link }}">
-                  <img src="{{ org.photo }}" class="img-circle org-photo"/>
+                <a href="{{ org.link }}" title="{{ org.name }} - {{ org.bio }}" target="_blank">
+                  <img src="{{ org.photo }}" alt="{{ org.name }} - {{ org.bio }}" class="img-circle org-photo"/>
                 </a>
                 <div class="org-text">
                   <div class="org-name">
