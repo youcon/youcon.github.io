@@ -4,6 +4,8 @@ google_analytics: 123
 
 markdown: kramdown
 
+is_registration_open: true
+
 exclude:
   - Gemfile
   - Gemfile.lock
