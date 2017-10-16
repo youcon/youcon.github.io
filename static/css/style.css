@@ -688,6 +688,24 @@ section#registration :-ms-input-placeholder {
     font-weight: 700;
     color: #eeeeee;
 }
+section#subscribe {
+    background-color: #202223;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section#subscribe input[type="email"] {
+    width: 100%;
+    height: 47px;
+}
+section#subscribe .sub {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 30px;
+}
+section#subscribe .section-heading {
+    color: white;
+}
+
 body {
     webkit-tap-highlight-color: #21c7da;
 }
