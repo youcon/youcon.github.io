@@ -11,33 +11,36 @@
                     <span></span>
                 </div>
             </button>
-            <a class="navbar-brand page-scroll" href="http://2015.youcon.ru">2015</a>
-            <a class="navbar-brand page-scroll" href="http://2016.youcon.ru">2016</a>
+            {% for event in site.previous_events %}
+                <a class="navbar-brand page-scroll" href="{{ event.link }}">{{ event.name }}</a>
+            {% endfor %}
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#about">О конференции</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#schedule">Расписание</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#partners">Партнеры</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#team">Организаторы</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contacts">Контакты</a>
-                </li>
-            </ul>
-        </div>
+        {% if site.is_in_progress %}
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">О конференции</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#schedule">Расписание</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#partners">Партнеры</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Организаторы</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        {% endif %}
     </div>
 </nav>
 
@@ -47,9 +50,14 @@
             <h1 class="logo">
                 <img class="logo-img" src="static/images/logo.png" alt="ЮКОН - Ежегодная конференция" />
             </h1>
-            <div class="intro-date">САРАТОВ | 14 октября 2017</div>
-            <div class="intro-heading">САРАТОВСКАЯ ГОСУДАРСТВЕННАЯ ЮРИДИЧЕСКАЯ АКАДЕМИЯ</div>
-            <a href="#registration" class="page-scroll btn btn-xl reg">Регистрация</a>
+            <div class="intro-date">{{ site.event_city }} | {{ site.event_date }}</div>
+            <div class="intro-heading">{{ site.event_location_name }}</div>
+            {% if site.is_registration_open %}
+                <a href="#registration" class="page-scroll btn btn-xl reg">Регистрация</a>
+            {% endif %}
+            {% unless site.is_in_progress %}
+                <a href="#subscribe" class="page-scroll btn btn-xl reg">Подписаться</a>
+            {% endunless %}
         </div>
     </div>
 </header>

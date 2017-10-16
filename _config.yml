@@ -4,7 +4,23 @@ google_analytics: 123
 
 markdown: kramdown
 
+# This flag means that event is still in progress but registration is closed
 is_registration_open: false
+
+# This flag means that event is in progress, otherwise need to transform to cooming soon page
+is_in_progress: false
+
+previous_events:
+    - name: "2015"
+      link: https://2015.youcon.ru
+    - name: "2016"
+      link: https://2016.youcon.ru
+    - name: "2017"
+      link: https://2017.youcon.ru
+
+event_date: "13 октября 2018"
+event_city: "Саратов"
+event_location_name: "Саратовская Государственная Юридическая Академия" 
 
 exclude:
   - Gemfile
