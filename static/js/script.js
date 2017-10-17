@@ -44,7 +44,7 @@
     });
 
     // handle form
-    $("form").submit(function(event) {
+    $("section#registration form").submit(function(event) {
         $.ajax({
             type: 'POST',
             url: $("form").attr("action"),
