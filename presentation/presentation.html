@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>2018</title>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Open+Sans:300&amp;subset=latin,cyrillic" />
+        <link rel="stylesheet" href="static/css/style.css" />
+    </head>
+
+    <body>
+        <div id="impress" style="position: absolute; ">
+
+            <div id="overview" class="step" data-scale="2">
+            </div>
+
+            <div id="you" class="step" data-x="-50" data-y="-800" data-scale="0.1">
+                <h1>YOU</h1>
+            </div>
+
+            <div id="conf" class="step" data-x="50" data-y="-800" data-scale="0.1">
+                <h1>CONFERENCE</h1>
+            </div>
+
+            <div id="youcon" class="step" data-x="0" data-y="-600" data-scale="0.3" >
+                <h1>YOUCON</h1>
+            </div>
+
+            <div align="center" id="youconlogo" class="slide2 step" data-x="5800" data-y="700" data-scale="15" data-rotate-y="90"  >
+                <img padding="300 px" src="static/images/logo2.svg" width='60%'; onerror="this.onerror=null; this.src='static/images/logo_gr.png'">
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/impress.js/0.5.3/impress.js"></script>
+        <script>impress().init();</script>
+    </body>
+</html>
