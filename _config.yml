@@ -18,6 +18,12 @@ previous_events:
     - name: "2017"
       link: https://2017.youcon.ru
 
+other_events:
+    - name: "Хакатон"
+      link: https://ottepel.youcon.ru
+    - name: "Дюна"
+      link: http://dune.youcon.ru
+
 event_date: "13 октября 2018"
 event_city: "Саратов"
 event_location_name: "Саратовская Государственная Юридическая Академия" 
