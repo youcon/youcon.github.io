@@ -58,6 +58,11 @@ h6 {
     text-transform: uppercase;
     font-weight: 700;
 }
+
+a.events {
+    text-decoration: underline;
+}
+
 .img-centered {
     margin: auto;
     padding-top: 30px;

@@ -16,6 +16,9 @@
             {% for event in site.previous_events %}
                 <a class="navbar-brand page-scroll" href="{{ event.link }}">{{ event.name }}</a>
             {% endfor %}
+            {% for event in site.other_events %}
+                <a class="navbar-brand page-scroll events" href="{{ event.link }}">{{ event.name }}</a>
+            {% endfor %}
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
