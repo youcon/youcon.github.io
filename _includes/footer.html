@@ -15,7 +15,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-62253510-1', 'auto');
+  ga('create', '{{ site.google_analytics }}', 'auto');
   ga('send', 'pageview');
 
 </script>
@@ -63,3 +63,12 @@
   </script>
   <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=915917885240322&ev=PageView&noscript=1"/></noscript>
   <!-- End Facebook Pixel Code -->
+
+
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?158"></script>
+
+<!-- VK Widget -->
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", 130987046, {tooltipButtonText: "Есть вопрос?"});
+</script>
