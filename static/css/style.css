@@ -678,9 +678,14 @@ section#registration .form-box {
 section#registration .reg-input {
     margin-bottom: 70px;
 }
+section#registration .reg-input {
+    margin-bottom: 70px;
+    text-align: center;
+}
 @media (min-width: 768px) {
     section#registration .reg-input {
         margin-bottom: 0px;
+        text-align: center;
     }
 }
 section#registration ::-webkit-input-placeholder {
