@@ -413,7 +413,7 @@ header .intro-date {
 }
 @media (min-width: 768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 200px;
     }
     header .intro-text .intro-lead-in {
