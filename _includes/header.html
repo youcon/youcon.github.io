@@ -29,14 +29,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">О конференции</a>
+                        <a class="page-scroll" href="#info">О конференции</a>
                     </li>
+                    {% comment %}
                     <li>
                         <a class="page-scroll" href="#schedule">Расписание</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#partners">Партнеры</a>
                     </li>
+                    {% endcomment %}
                     <li>
                         <a class="page-scroll" href="#team">Организаторы</a>
                     </li>
@@ -58,7 +60,7 @@
             <div class="intro-date">{{ site.event_city }} | {{ site.event_date }}</div>
             <div class="intro-heading">{{ site.event_location_name }}</div>
             {% if site.is_registration_open %}
-                <a href="#registration" class="page-scroll btn btn-xl reg">Регистрация</a>
+                <a href="#info" class="page-scroll btn btn-xl reg">О конференции</a>
             {% endif %}
             {% unless site.is_in_progress %}
                 <a href="#subscribe" class="page-scroll btn btn-xl reg">Подписаться</a>
