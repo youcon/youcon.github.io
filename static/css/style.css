@@ -278,6 +278,9 @@ fieldset[disabled] .btn-xl.active {
     color: #21c7da;
     background-color: white;
 }
+.btn.twf {
+    white-space: normal;
+}
 .navbar-custom {
     background-color: #222222;
     border-color: transparent;
