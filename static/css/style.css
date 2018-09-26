@@ -91,6 +91,8 @@ section#info {
     background-position: center;
     background-repeat: no-repeat;
     color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .info-block {
     font-size: 70px;
@@ -615,6 +617,7 @@ section#about {
     background-color: #22c7db;
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 20px;
 }
 section#about .section-heading {
     color: white;
