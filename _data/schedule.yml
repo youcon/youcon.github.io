@@ -14,8 +14,8 @@
                 bio: "Пишу бэкенды, фронтенды и распределенные системы на Clojure, веду блог о программировании и человеко-компьютерном взаимодействии, рисую шрифт Fira Code. Автор DataScript, Rum, AnyBar, grumpy.website. <a href='https://twitter.com/nikitonsky'>twitter</a> <a href='http://tonsky.me'>web</a> <a href='https://tonsky.livejournal.com'>ЖЖ</a> <a href='https://github.com/tonsky'>github</a>"
                 name: "Никита Прокопов"
             - time: "11:50"
-              title: "Тема уточняется"
-              description: "Описание уточняется"
+              title: "Что-то у вас тут всё слишком сложно"
+              description: "Как SRE борются со сложностью, что будет, если этого не делать, и причём здесь технический долг."
               speaker:
                 photo: "static/images/speakers/pkomkoff.png"
                 bio: "Google SRE"
