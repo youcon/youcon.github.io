@@ -11,13 +11,12 @@ is_registration_open: true
 is_in_progress: true
 
 previous_events:
-    - name: "2015"
-      link: https://2015.youcon.ru
-    - name: "2016"
-      link: https://2016.youcon.ru
     - name: "2017"
       link: https://2017.youcon.ru
-
+    - name: "2016"
+      link: https://2016.youcon.ru
+    - name: "2015"
+      link: https://2015.youcon.ru
 other_events:
     - name: "Хакатон"
       link: https://ottepel.youcon.ru
