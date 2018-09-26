@@ -549,7 +549,7 @@ section#schedule .speak-title {
 section#schedule .speak-description {
     margin-bottom: 10px;
     word-wrap: break-word;
-    color: #c4c4c4;
+    color: #4a4a4a;
 }
 section#schedule .speaker-name {
     font-weight: 700;
@@ -558,7 +558,7 @@ section#schedule .speaker-name {
 }
 section#schedule .speaker-bio {
     word-wrap: break-word;
-    color: #c4c4c4;
+    color: #4a4a4a;
 }
 section#schedule .speak-important {
     color: #cf2642;
