@@ -412,7 +412,7 @@ header .intro-text .intro-heading {
 header .intro-date {
     font-weight: 700;
     font-size: 30px;
-    color: white;
+    color: #696969;
     margin-top: 100px;
     margin-bottom: 20px;
 }
@@ -444,7 +444,7 @@ header .intro-date {
     header .intro-date {
         font-weight: 700;
         font-size: 30px;
-        color: white;
+        color: #696969;
         margin-top: 100px;
         margin-bottom: 20px;
     }
