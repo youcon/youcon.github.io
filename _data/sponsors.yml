@@ -10,3 +10,11 @@
   website: http://thumbtack.ru/
   logo: static/images/sponsors/tam.png
   hover: static/images/sponsors/tam_2.png
+- name: OpenDev
+  website: https://opendev.com/
+  logo: static/images/sponsors/opendev.png
+  hover: static/images/sponsors/opendev.png
+- name: RainbowSoft
+  website: http://www.rainbowsoft.ru/
+  logo: static/images/sponsors/rainbowsoft.png
+  hover: static/images/sponsors/rainbowsoft.png
