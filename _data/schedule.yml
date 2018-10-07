@@ -222,11 +222,10 @@
                             <ul><li>О рекламе в интернет</li>
                             <li>Общая архитектура рекламных систем</li>
                             <li>Задачи и технические ограничения</li>
-                            <li>Формализация задач</li>
                             <li>Подходы к решению, их плюсы и минусы</li></ul>"
               speaker:
                 photo: "static/images/speakers/agusev.png"
-                bio: "Директор в 'Архитекторы Решений'"
+                bio: "Co-founder &ldquo;Solution Architects&rdquo;"
                 name: "Андрей Гусев"
             - time: "13:00"
               title: "Почему ваша команда не эффективна?"
