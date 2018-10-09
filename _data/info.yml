@@ -1,0 +1,40 @@
+- name: "Свободные новости"
+  website: http://fn-volga.ru/
+  logo: static/images/info/1.png
+  hover: static/images/info/1.png
+- name: "ГТРК"
+  website: http://gtrk-saratov.ru/
+  logo: static/images/info/2.png
+  hover: static/images/info/2.png
+- name: "it52"
+  website: https://www.it52.info/
+  logo: static/images/info/3.png
+  hover: static/images/info/3.png
+- name: "Саратов 24"
+  website: http://saratov24.tv
+  logo: static/images/info/4.png
+  hover: static/images/info/4.png
+- name: "it34"
+  website: https://vk.com/it34_community
+  logo: static/images/info/5.png
+  hover: static/images/info/5.png
+- name: "Samara It community"
+  website: https://vk.com/samara_it_community
+  logo: static/images/info/6.png
+  hover: static/images/info/6.png
+- name: "Типичный Саратов"
+  website: https://vk.com/64saratov
+  logo: static/images/info/7.png
+  hover: static/images/info/7.png
+- name: "Secon"
+  website: http://secon.ru/
+  logo: static/images/info/8.png
+  hover: static/images/info/8.png
+- name: "UFACODER"
+  website: http://ufacoder.com
+  logo: static/images/info/9.png
+  hover: static/images/info/9.png
+- name: "Версия"
+  website: http://nversia.ru
+  logo: static/images/info/10.png
+  hover: static/images/info/10.png
