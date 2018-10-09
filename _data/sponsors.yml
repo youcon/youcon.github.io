@@ -10,3 +10,11 @@
   website: http://thumbtack.ru/
   logo: static/images/sponsors/tam.png
   hover: static/images/sponsors/tam_2.png
+- name: Bell Integrator
+  website: http://www.bellintegrator.ru/
+  logo: static/images/sponsors/bell.png
+  hover: static/images/sponsors/bell_2.png
+- name: Big Datix
+  website: https://www.bigdatix.com/
+  logo: static/images/sponsors/bigdatix.png
+  hover: static/images/sponsors/bigdatix_2.png
