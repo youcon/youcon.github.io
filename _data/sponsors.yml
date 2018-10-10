@@ -14,14 +14,14 @@
   website: https://opendev.com/
   logo: static/images/sponsors/opendev.png
   hover: static/images/sponsors/opendev.png
-- name: Stratolab
-  website: http://www.stratolab.ru/
-  logo: static/images/sponsors/stratolab.png
-  hover: static/images/sponsors/stratolab.png
 - name: RainbowSoft
   website: http://www.rainbowsoft.ru/
   logo: static/images/sponsors/rainbowsoft.png
   hover: static/images/sponsors/rainbowsoft.png
+- name: Stratolab
+  website: http://www.stratolab.ru/
+  logo: static/images/sponsors/stratolab.png
+  hover: static/images/sponsors/stratolab.png
 - name: Bell Integrator
   website: http://www.bellintegrator.ru/
   logo: static/images/sponsors/bell.png
