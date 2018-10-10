@@ -38,3 +38,11 @@
   website: http://nversia.ru
   logo: static/images/info/10.png
   hover: static/images/info/10.png
+- name: "Uwebdesign"
+  website: https://youtube.com/uwebdesign
+  logo: static/images/info/11.png
+  hover: static/images/info/11.png
+- name: "Codologia"
+  website: http://codologia.ru/Saratov
+  logo: static/images/info/12.png
+  hover: static/images/info/12.png
