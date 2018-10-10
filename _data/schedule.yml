@@ -279,7 +279,7 @@
             - time: "17:20"
               title: "Забытое искусство определений. Как грамотный Scope Management поможет вашему проекту, карьере, жизни."
               speaker:
-                photo: "static/images/speakers/default-speaker.png"
+                photo: "static/images/speakers/mbaltaev.png"
                 bio: "руководитель проектов EPAM Systems"
                 name: "Максим Балтаев"
             - time: "18:30"
