@@ -31,7 +31,7 @@
             - time: "14:00"
               title: "Обед"
             - time: "15:00"
-              title: "Developer eXperinece in Function as a Service"
+              title: "Developer eXperience in Function as a Service"
               description: "Serverless и Function as a Service (FaaS) - относительно новые концепции в программной инженерии.
 Упоминая их в основном говорят об эффективной утилизации железа и автомасштабировании, 
 но не менее важно задумываться об эффективности разработчика этих функций.
