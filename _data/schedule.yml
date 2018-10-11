@@ -203,6 +203,10 @@
             - time: "13:00"
               title: "Тема уточняется"
               description: "Описание уточняется"
+              speaker:
+                photo: "static/images/speakers/dprostov.jpg"
+                bio: "CODDY-школа программирования для детей, CEO/Co-Founder"
+                name: "Дмитрий Простов"
             - time: "14:00"
               title: "Обед"
             - time: "15:00"
