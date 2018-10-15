@@ -46,3 +46,7 @@
   website: http://codologia.ru/Saratov
   logo: static/images/info/12.png
   hover: static/images/info/12.png
+- name: "RUSSOL"
+  website: http://russol.info
+  logo: static/images/info/13.png
+  hover: static/images/info/13.png
