@@ -13,7 +13,9 @@
         {% else %}
             {% include section_closed_registration.html %}
         {% endif %}
-            {% include section_schedule.html %} 
+        {% comment %}
+        {% include section_schedule.html %}
+        {% endcomment %}
             <section id="splitter"/>
             {% include section_partners.html %}
     {% else %}

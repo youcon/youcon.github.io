@@ -5,10 +5,10 @@ google_analytics: UA-62253510-1
 markdown: kramdown
 
 # This flag means that event is still in progress but registration is closed
-is_registration_open: false
+is_registration_open: true
 
 # This flag means that event is in progress, otherwise need to transform to cooming soon page
-is_in_progress: false
+is_in_progress: true
 
 previous_events:
     - name: "2018"
