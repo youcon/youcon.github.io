@@ -42,6 +42,23 @@
         }
         return false
     });
+    $('a#all-speakers').on('click', function(){
+        var hidden = $('.prev-hide')
+        var shown = $('.prev-show')
+				
+
+        if (hidden.length) {
+            hidden.addClass('prev-show')
+            hidden.removeClass('prev-hide')
+						$(this).text('Скрыть')
+        }
+        if (shown.length) {
+            shown.addClass('prev-hide')
+            shown.removeClass('prev-show')
+						$(this).text('Все докладчики')
+        }
+        return false
+    });
 
     // handle form
     $("section#registration form").submit(function(event) {
