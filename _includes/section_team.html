@@ -5,9 +5,11 @@
                 <h2 class="section-heading">Организаторы</h2>
             </div>
         </div>
-        <div class="row">
         {% for org in site.data.orgs %}
             {% assign loopindex = forloop.index0 | modulo: 4 %}
+            {% if loopindex == 0 %}
+                    <div class="row">
+            {% endif %}
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="org-block">
                 <a href="{{ org.link }}" title="{{ org.name }} - {{ org.bio }}" target="_blank">
@@ -23,7 +25,9 @@
                 </div>
               </div>
             </div>
+            {% if loopindex == 3 or forloop.last == true %}
+                </div>
+            {% endif %}
         {% endfor %}
-        </div>
     </div>
 </section>

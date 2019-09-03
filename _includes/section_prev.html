@@ -1,0 +1,46 @@
+<section id="prev">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">Докладчики прошедших конференций</h2>
+            </div>
+        </div>
+        {% assign hide=false%}
+        {% for prev in site.data.prev %}
+            {% assign loopindex = forloop.index0 | modulo: 4 %}
+            {% if forloop.index0 > 7 and hide == false %}
+                {% assign hide=true %}
+                <div class="prev-hide">
+            {% endif %}
+            {% if loopindex == 0 %}
+                    <div class="row">
+            {% endif %}
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="prev-block">
+                <img src="{{ prev.photo }}" alt="{{ prev.name }} - {{ prev.subj }}" class="img-circle prev-photo"/>
+                <div class="prev-text">
+                  <div class="prev-name">
+                      {{ prev.name }}
+                  </div>
+                  <div class="prev-subj">
+                      {{ prev.subj }}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% if loopindex == 3 or forloop.last == true %}
+                </div>
+            {% endif %}
+            {% if forloop.last== true and hide==true %}
+                </div>
+                <div class="row">
+                        <div class="col-xs-12">
+                              <p class="text-center unfold">
+                                      <a id="all-speakers" href="#">Все докладчики</a>
+                              </p>
+                        </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
