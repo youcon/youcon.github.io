@@ -16,3 +16,6 @@
 - name: "Елена Аверьянова"
   photo: "static/images/orgs/eav.jpg"
   link: "https://vk.com/absent4"
+- name: "Макс Кулаков"
+  photo: "static/images/orgs/Max.png"
+  link: "https://vk.com/max_kulakov"
