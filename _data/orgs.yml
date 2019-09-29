@@ -19,3 +19,6 @@
 - name: "Макс Кулаков"
   photo: "static/images/orgs/Max.png"
   link: "https://vk.com/max_kulakov"
+- name: "Артем Шевченко"
+  photo: "static/images/orgs/art.png"
+  link: "https://vk.com/mr_shev"

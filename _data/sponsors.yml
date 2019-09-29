@@ -6,3 +6,11 @@
   website: https://griddynamics.com
   logo: static/images/sponsors/grid.png
   hover: static/images/sponsors/grid_2.png
+- name: RBS
+  website: http://www.rainbowsoft.ru/
+  logo: static/images/sponsors/rbs.png
+  hover: static/images/sponsors/rbs.png
+- name: TransTelematika
+  website: http://transtelematica.ru/
+  logo: static/images/sponsors/transt.png
+  hover: static/images/sponsors/transt.png
