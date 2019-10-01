@@ -11,6 +11,10 @@
   logo: static/images/sponsors/rbs.png
   hover: static/images/sponsors/rbs.png
 - name: TransTelematika
-  website: http://transtelematica.ru/
+  website: http://sc-ttm.ru/
   logo: static/images/sponsors/transt.png
   hover: static/images/sponsors/transt.png
+- name: Тамтэк
+  website: https://thumbtack.ru/
+  logo: static/images/sponsors/tam.png
+  hover: static/images/sponsors/tam.png
