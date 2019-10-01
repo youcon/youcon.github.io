@@ -62,7 +62,7 @@
               title: "Экономим время QA с помощью кросс платформенной автоматизации web приложений"
               description: "Расскажу, как для клиента сделали кросс платформенное тестирование, в котором данные не надо вводить отдельно для мобайла, десктопа и таблетки. Это решение очень экономит время, соответственно."
               speaker:
-                photo: "static/images/speakers/default-speaker.png"
+                photo: "static/images/speakers/nprikazchikov.jpg"
                 bio: "Staff Automation Quality Engineer, Grid Dynamics"
                 name: "Никита Приказчиков"
             - time: "13:00"
