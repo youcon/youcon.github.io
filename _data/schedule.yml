@@ -68,7 +68,7 @@
             - time: "13:00"
               title: "Анализ фейлов в автотестах с помощью ML-техник"
               speaker:
-                photo: "static/images/speakers/default-speaker.png"
+                photo: "static/images/speakers/mmamedov.jpg"
                 bio: "QA Analyst, Exactpro"
                 name: "Мурад Мамедов"
             - time: "14:00"
