@@ -54,7 +54,11 @@
                                     <div class="col-sm-9 speak-box">
                                 {% endif %}
                                 <div class="row">
-                                    <div class="col-sm-10">
+                                        {% if event.speaker.photos != null%}
+                                            <div class="col-sm-8">
+                                        {% else %}
+                                            <div class="col-sm-10">
+                                        {% endif %}
                                         <div class="row">
                                             {% if forloop.first == true %}
                                                 <div class="col-sm-12 speak-title speak-important">
@@ -94,6 +98,13 @@
                                         <div class="col-sm-2">
                                             <img src="{{ event.speaker.photo }}" class="img-circle speaker-photo"/>
                                         </div>
+                                    {% endif %}
+                                    {% if event.speaker.photos != null %}
+                                        {% for photo in event.speaker.photos%}
+                                                <div class="col-sm-2">
+                                                    <img src="{{ photo }}" class="img-circle speaker-photo"/>
+                                                </div>
+                                        {% endfor %}
                                     {% endif %}
                                 </div>
                             </div>
