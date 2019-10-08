@@ -13,7 +13,10 @@
         {% else %}
             {% include section_closed_registration.html %}
         {% endif %}
-            {% include section_schedule.html %} 
+        {% comment %}
+        {% include section_prev.html %}
+        {% endcomment %}
+        {% include section_schedule.html %}
             <section id="splitter"/>
             {% include section_partners.html %}
     {% else %}
