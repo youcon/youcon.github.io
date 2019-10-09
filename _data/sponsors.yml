@@ -14,7 +14,20 @@
   website: http://sc-ttm.ru/
   logo: static/images/sponsors/transt.png
   hover: static/images/sponsors/transt.png
+- name: Netcracker
+  website: https://www.netcracker.com/
+  logo: static/images/sponsors/netcracker.png
+  hover: static/images/sponsors/netcracker.png
+- name: Норникель
+  website: http://ssc.nornik.ru/
+  logo: static/images/sponsors/nornikel.png
+  hover: static/images/sponsors/nornikel.png
+- name: Мой бизнес
+  website: http://saratov-bis.ru/
+  logo: static/images/sponsors/myb.png
+  hover: static/images/sponsors/myb.png
 - name: Тамтэк
   website: https://thumbtack.ru/
   logo: static/images/sponsors/tam.png
   hover: static/images/sponsors/tam.png
+  
