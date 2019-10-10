@@ -159,7 +159,15 @@ Quarkus - молодой и современный фреймворк на Java,
             - time: "16:10"
               title: "Доклад уточняется"
             - time: "17:20"
-              title: "Доклад уточняется"
+              title: "Панельная дискуссия: SRE: самые счастливые (и высокооплачиваемые)"
+              description: "В новом формате обсудим со специалистами специфику работы в SRE."
+              speaker:
+                photos: 
+                  - "static/images/speakers/pkomkoff.png"
+                  - "static/images/speakers/aandreev.jpg"
+                bio: "SRE и SRE"
+                name: "Павел Комков, Алексей Андреев"
+
             - time: "18:30"
               title: "Закрытие конференции"
 - name: "Дизайн трек"
