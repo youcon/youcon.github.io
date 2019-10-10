@@ -30,4 +30,7 @@
   website: https://thumbtack.ru/
   logo: static/images/sponsors/tam.png
   hover: static/images/sponsors/tam.png
-  
+- name: Skyeng
+  website: https://skyeng.ru/
+  logo: static/images/sponsors/skyeng.png
+  hover: static/images/sponsors/skyeng.png
