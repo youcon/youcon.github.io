@@ -6,16 +6,14 @@
   <body id="page-top" class="index">
     {% include header.html %}
     {% include section_info.html %}
+    {% include section_about.html %}
+    {% include section_prev.html %}
     {% if site.is_in_progress %}
-        {% include section_about.html %}
         {% if site.is_registration_open %}
             {% include section_registration.html %}
         {% else %}
             {% include section_closed_registration.html %}
         {% endif %}
-        {% comment %}
-        {% include section_prev.html %}
-        {% endcomment %}
         {% include section_schedule.html %}
             <section id="splitter"/>
             {% include section_partners.html %}
@@ -23,7 +21,9 @@
         {% include section_subscribe.html %}
         <section id="splitter"/>
     {% endif %}
+    {% comment %}
     {% include section_team.html %}
+    {% endcomment %}
     {% include section_contacts.html %}
 
     {% include footer.html %}

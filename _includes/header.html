@@ -57,8 +57,10 @@
             <h1 class="logo">
                 <img class="logo-img" src="static/images/logo.png" alt="ЮКОН - Ежегодная конференция" />
             </h1>
-            <div class="intro-date">{{ site.event_city }} | {{ site.event_date }}</div>
+            {% if site.is_in_progress %}
+            <div class="intro-date">{{ site.event_city }} | {{ site.event_date }} <div>
             <div class="intro-heading">{{ site.event_location_name }}</div>
+            {% endif %}
             {% if site.is_registration_open %}
                 <a href="#info" class="page-scroll btn btn-xl reg">О конференции</a>
             {% endif %}
