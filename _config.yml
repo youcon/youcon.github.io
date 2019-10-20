@@ -11,6 +11,8 @@ is_registration_open: false
 is_in_progress: false
 
 previous_events:
+    - name: "2019"
+      link: https://2019.youcon.ru
     - name: "2018"
       link: https://2018.youcon.ru
     - name: "2017"
